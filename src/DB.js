@@ -2,26 +2,26 @@ const cities= [{
     id: 'sa',
     city: 'Riyadh',
     pic:'https://imgur.com/6SXeDa8.jpg',
-    time: 0
+    time: 3
   },
   {
     id: 'us',
     city: 'New York',
     pic:'https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/north-america/united-states/newyork/newyork_NationalGeographic_2328428.adapt.1900.1.jpg',
-    time: -7
+    time: -4
   },
   {
     id: 'jp',
     city: 'Tokyo',
     pic:'https://imgur.com/BYLrmXM.jpg',
-    time: 6
+    time: 3 
   },{
     id: 'kr',
     city: 'Seoul',
     pic:'https://imgur.com/NUNDa97.jpg',
     time: 6
   },{
-    id: 'uk',
+    id: 'gb',
     city: 'London',
     pic:'https://imgur.com/tW0gmn9.jpg',
     time: -2

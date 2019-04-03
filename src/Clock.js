@@ -18,7 +18,10 @@ export default class Clock extends React.Component {
 
   startTime() {
     const today = new Date();
-    const h = today.getHours() + (this.props.time) ;
+    
+    let h = new Date().getUTCHours() +  this.props.time ;
+    if (h > 23){
+      h = h - 24}
     const m = checkTime(today.getMinutes());
     const s = checkTime(today.getSeconds());
 

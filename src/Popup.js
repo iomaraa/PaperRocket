@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import Weather from './Weather'
+import News from './News';
+import './weather.css'
 
 class Popup extends React.Component {
   constructor(props) {
@@ -24,14 +26,16 @@ class Popup extends React.Component {
       <div>
         <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className} external={externalCloseBtn}>
-          <ModalHeader><Weather city={this.props.city}/> </ModalHeader>
+          <ModalHeader  style={{backgroundColor: '#FF3F3F', letterSpacing:'2px', fontFamily: 'Helvetica', color: 'white'}}  className='styleName'> {this.props.city} <Weather style={{}} city={this.props.city}/></ModalHeader>
+            <h3 style={{margin: '5px auto'}}>Latest News</h3>
+          
           <ModalBody>
-            <b></b><br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {/* <b style={{  fontSize: '40px', textAlign: 'center'}}> </b><br /> */}
+            <News cityId={this.props.cityId}/>
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
-            <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+            {/* <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
+            <Button color="secondary" onClick={this.toggle}>Cancel</Button> */}
           </ModalFooter>
         </Modal>
       </div>

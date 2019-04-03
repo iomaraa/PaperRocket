@@ -24,7 +24,7 @@ export default class City extends Component {
       
     <CardImg width="100%" height= '220px' src={city.pic} alt="Card image cap" />
       <CardImgOverlay>
-        <Popup city={city.city}/>
+        <Popup city={city.city} cityId={city.id}/>
         <CardTitle style={{textShadow: '0px 0px 6px #000000', textAlign: 'Center', fontSize: '30px'}} >{city.city}</CardTitle>
         <CardText style={{textShadow: '0px 0px 6px #000000', textAlign: 'Center', fontSize: '30px'}}><Clock time={city.time}/></CardText>
         {/* <CardText>

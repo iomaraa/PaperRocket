@@ -9,7 +9,7 @@ export default class Img extends Component {
     //  });
     return (
         <div>
-            <img src={this.props.src} alt=''/>
+            <img src={this.props.src} alt='https://source.unsplash.com/random/900×700/?city'/>
         </div>
     )
   }
