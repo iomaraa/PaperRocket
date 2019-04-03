@@ -1,15 +1,15 @@
 {
-  "main.css": "/PaperRocket/static/css/main.c3370e61.chunk.css",
-  "main.js": "/PaperRocket/static/js/main.e8bee973.chunk.js",
-  "main.js.map": "/PaperRocket/static/js/main.e8bee973.chunk.js.map",
+  "main.css": "/PaperRocket/static/css/main.766661a7.chunk.css",
+  "main.js": "/PaperRocket/static/js/main.4f60e985.chunk.js",
+  "main.js.map": "/PaperRocket/static/js/main.4f60e985.chunk.js.map",
   "runtime~main.js": "/PaperRocket/static/js/runtime~main.e58be7c3.js",
   "runtime~main.js.map": "/PaperRocket/static/js/runtime~main.e58be7c3.js.map",
   "static/css/2.5cc40a21.chunk.css": "/PaperRocket/static/css/2.5cc40a21.chunk.css",
-  "static/js/2.ac90b2ff.chunk.js": "/PaperRocket/static/js/2.ac90b2ff.chunk.js",
-  "static/js/2.ac90b2ff.chunk.js.map": "/PaperRocket/static/js/2.ac90b2ff.chunk.js.map",
+  "static/js/2.43de41a4.chunk.js": "/PaperRocket/static/js/2.43de41a4.chunk.js",
+  "static/js/2.43de41a4.chunk.js.map": "/PaperRocket/static/js/2.43de41a4.chunk.js.map",
   "index.html": "/PaperRocket/index.html",
-  "precache-manifest.c64cb420985b9df579f51ce12fac274f.js": "/PaperRocket/precache-manifest.c64cb420985b9df579f51ce12fac274f.js",
+  "precache-manifest.6cabd15d6da90445fccd5e523dd8b5a8.js": "/PaperRocket/precache-manifest.6cabd15d6da90445fccd5e523dd8b5a8.js",
   "service-worker.js": "/PaperRocket/service-worker.js",
   "static/css/2.5cc40a21.chunk.css.map": "/PaperRocket/static/css/2.5cc40a21.chunk.css.map",
-  "static/css/main.c3370e61.chunk.css.map": "/PaperRocket/static/css/main.c3370e61.chunk.css.map"
+  "static/css/main.766661a7.chunk.css.map": "/PaperRocket/static/css/main.766661a7.chunk.css.map"
 }
